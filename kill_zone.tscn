@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://drq07e65b8eyo"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_wp5gn"]
+
+[node name="Kill Zone" type="Area2D"]
+collision_mask = 255
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("WorldBoundaryShape2D_wp5gn")

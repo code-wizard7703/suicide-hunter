@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3ije1ltab3l3"]
+
+[ext_resource type="AudioStream" uid="uid://bbkh8txpd1jo6" path="res://Soldier/background sound.mp3" id="1_jqkfj"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_jqkfj")
+autoplay = true
